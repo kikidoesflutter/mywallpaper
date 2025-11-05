@@ -231,7 +231,7 @@ class SavedWallpapersView extends StatelessWidget {
                   children: [
                     ClipRRect(
                       borderRadius: BorderRadius.circular(12),
-                      child: Image.network(
+                      child: Image.asset(
                         activeWallpaper.imageUrl,
                         width: 70,
                         height: 120,

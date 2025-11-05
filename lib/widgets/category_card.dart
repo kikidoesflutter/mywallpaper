@@ -16,7 +16,7 @@ class CategoryCard extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           image: DecorationImage(
-            image: NetworkImage(category.imageUrl),
+            image: AssetImage(category.imageUrl),
             fit: BoxFit.cover,
           ),
         ),

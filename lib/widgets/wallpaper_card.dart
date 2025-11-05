@@ -25,7 +25,7 @@ class WallpaperCard extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           image: DecorationImage(
-            image: NetworkImage(wallpaper.imageUrl),
+            image: AssetImage(wallpaper.imageUrl),
             fit: BoxFit.cover,
           ),
         ),

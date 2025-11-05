@@ -341,7 +341,7 @@ class _WallpaperDetailScreenState extends State<WallpaperDetailScreen> {
     return Stack(
       children: [
         Positioned.fill(
-          child: Image.network(selectedWallpaper.imageUrl, fit: BoxFit.cover),
+          child: Image.asset(selectedWallpaper.imageUrl, fit: BoxFit.cover),
         ),
         Positioned(
           top: 16,
@@ -400,7 +400,7 @@ class _WallpaperDetailScreenState extends State<WallpaperDetailScreen> {
           child: Stack(
             fit: StackFit.expand,
             children: [
-              Image.network(wallpaper.imageUrl, fit: BoxFit.cover),
+              Image.asset(wallpaper.imageUrl, fit: BoxFit.cover),
               Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
@@ -451,7 +451,7 @@ class _WallpaperDetailScreenState extends State<WallpaperDetailScreen> {
                 topLeft: Radius.circular(16),
                 bottomLeft: Radius.circular(16),
               ),
-              child: Image.network(
+              child: Image.asset(
                 wallpaper.imageUrl,
                 width: 120,
                 height: 80,
@@ -626,7 +626,7 @@ class _WallpaperDetailScreenState extends State<WallpaperDetailScreen> {
         child: Stack(
           children: [
             Positioned.fill(
-              child: Image.network(
+              child: Image.asset(
                 selectedWallpaper.imageUrl,
                 fit: BoxFit.cover,
               ),

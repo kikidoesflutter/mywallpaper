@@ -145,7 +145,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                               children: [
                                 ClipRRect(
                                   borderRadius: const BorderRadius.horizontal(left: Radius.circular(16)),
-                                  child: Image.network(
+                                  child: Image.asset(
                                     category.imageUrl,
                                     width: 200,
                                     height: double.infinity,
